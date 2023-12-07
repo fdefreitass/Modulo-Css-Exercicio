@@ -1,0 +1,147 @@
+:root {
+    --color-white: #fff;
+    --color-black: #121212;
+    --color-green1: greenyellow;
+    --color-gray: #ccc;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+
+/*HEADER*/
+
+header .container-header {
+    display: flex;
+    background-color: var(--color-black);
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0rem 5rem;
+}
+
+header h1 {
+    color: var(--color-green1);
+    text-transform: uppercase;
+    font-style: italic;
+}
+header a {
+    text-decoration: none;
+    color: var(--color-black);
+    text-transform: uppercase;
+    background-color: var(--color-green1);
+    padding: 10px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+header li{
+    display: inline;
+    margin: 10px;
+}
+/*Main*/
+
+.content-page,
+.content-page-container-2,
+.content-page-container-3,
+.content-page-container-4{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.main-content h2,
+.economia-content h2,
+.entretenimento-content h2,
+.tecnologia-content h2{
+    text-align: center;
+    background-color: var(--color-green1);
+    color: var(--color-black);
+    padding: 5px 0px;
+    border-radius: 10px;
+}
+
+.main-content,
+.tecnologia-content,
+.economia-content,
+.entretenimento-content{
+    margin-bottom: 15px;
+}
+
+.artigos img {
+    height: 200px;
+    width: 100%;
+}
+
+.artigos h3 {
+    margin-top: 5px;
+    margin-bottom: 2px;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    background-color: var(--color-green1);
+}
+
+.artigos a {
+    background-color: var(--color-green1);
+    font-weight: bold;
+    font-style: italic;
+    color: var(--color-black);
+    padding: 0.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    width: 70%;
+}
+
+.artigos p {
+    margin: 15px 0px;
+    font-size: 0.8rem;
+    width: 90%;
+}
+
+.artigos header time {
+    color: var(--color-black);
+    font-size: 0.75rem;
+}
+
+.button-plus {
+    display: flex;
+    justify-content: center;
+}
+
+.artigos {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: var(--color-black);
+    color: var(--color-green1);
+    height: 130px;
+}
+
+footer h4,
+p {
+    margin-bottom: 8px;
+}
+
+.conteudo-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.informacao {
+    margin: 2rem;
+    text-align: center;
+}
